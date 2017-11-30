@@ -4,7 +4,7 @@ use Classes\Model\account;
 use Classes\Model\todo;
 use Classes\Databases\dbConn;
 use \PDO;
-//use classes\HtmlDisplay\display;
+use classes\Views\display;
 
 class model {
     protected $tableName;

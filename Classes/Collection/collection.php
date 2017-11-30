@@ -4,10 +4,9 @@ use Classes\Collection\accounts;
 use Classes\Collection\todos;
 use Classes\Databases\dbConn;
 use \PDO;
-//use classes\htmldisplay\display;
+use classes\Views\display;
 
-//include 'dbConn.php';
-class collection {
+abstract class collection {
     static public function create() {
       $model = new static::$modelName;
       return $model;
